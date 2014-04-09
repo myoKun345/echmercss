@@ -1,0 +1,27 @@
+.author {
+    font-size: 12px;
+}
+
+.author[href*="user/Avian81"]:after {
+    content: "AVIÉNNE";
+    font-size: 12px;
+}
+.author[href*="user/IceFireWarden"]:after {
+    content: "HRAHNDEYL";
+    font-size: 12px;
+}
+.author[href*="user/Hollymarkie"]:after {
+    content: "Imperial Feget";
+    font-size: 12px;
+}
+.author[href*="user/myrrlyn"]:after {
+    content: "LSchick | Loremaster";
+    font-size: 12px;
+}
+
+.author[href*="user/Avian81"],
+.author[href*="user/IceFireWarden"],
+.author[href*="user/Hollymarkie"],
+.author[href*="user/myrrlyn"] {
+    font-size: 0;
+}
