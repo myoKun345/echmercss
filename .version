@@ -1,5 +1,5 @@
 {
-	sheet: {
+	main: {
 		version: '0',
 		name: 'testing'
 	}
